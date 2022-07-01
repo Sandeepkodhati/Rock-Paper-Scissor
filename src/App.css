@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  background-color: #223a5f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.score-container {
+  border: 2px solid white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  width: 70%;
+  max-width: 700px;
+  min-width: 300px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.score-card {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.custom-heading {
+  font-size: 20px;
+  font-family: 'Bree Serif';
+  color: white;
+}
+
+.score-heading {
+  font-size: 20px;
+  font-family: 'Bree Serif';
+  color: #223a5f;
+}
+
+.score {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #223a5f;
+}
+
+.rules-container {
+  align-self: flex-end;
+}
+
+.rules-view-container {
+  background-color: white;
+  padding: 20px;
+  height: 500px;
+  width: 100%;
+}
+
+.close-button-container {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.close-button {
+  font-size: 25px;
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.rules-image {
+  height: 400px;
+  width: 450px;
+}
